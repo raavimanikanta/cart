@@ -1,3 +1,5 @@
+require("newrelic");
+
 var express = require('express');
 var router = express.Router();
 var cartitem = require('../public/jsondata/cartitems.json')
